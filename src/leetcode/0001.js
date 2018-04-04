@@ -8,8 +8,8 @@
  * @author: martinwangjun@163.com
  */
 
-const nums = [2, 7, 11, 15, 32, 93, 28]
-const target = 35
+const nums = [2, 7, 11, 15]
+const target = 9
 
 // Approach #1: brute force
 let func = function (nums, target) {
