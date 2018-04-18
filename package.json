@@ -4,9 +4,15 @@
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
-    "babel-register": "^6.26.0"
+    "babel-register": "^6.26.0",
+    "jest": "^22.4.3"
   },
   "scripts": {
-    "build": "babel src -d lib"
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-route": "^3.2.0"
   }
 }
